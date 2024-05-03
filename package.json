@@ -1,0 +1,21 @@
+{
+  "name": "50-grupe-intro",
+  "version": "1.0.0",
+  "description": "kazkoks mini aprasas apie projekta",
+  "main": "index.js",
+  "scripts": {
+    "namu.darbai": "node --watch ./js/duomenys/namu.darbai.js",
+    "function": "node --watch ./js/duomenys/function.js",
+    "boolean": "node --watch ./js/duomenys/boolean.js",
+    "string": "node --watch ./js/duomenys/string.js",
+    "number": "node --watch ./js/duomenys/number.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pirmas",
+    "antras",
+    "trecias"
+  ],
+  "author": "",
+  "license": "ISC"
+}
