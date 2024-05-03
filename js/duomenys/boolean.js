@@ -10,7 +10,7 @@ Boolean logikos operatoriai:
 -&& (AND)    BUTINAI DVIGUBI! PIRMENYBE programa teikia AND'ui, kai skaiciuojamas rezultatas
 aplink && jei yra bent vienas false, visa salyga bus false
 -|| (pipeline) (OR)     BUTINAI DVIGUBI!!
--! (NOT)
+-! (NOT) panaudojimas - gauname atvirkstini salygos varianta, nedeti daugiau nei 2 sauktukus
 */ 
 
 const username = 'Jonas';

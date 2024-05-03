@@ -12,3 +12,4 @@ function funkcijosPavadinimas() {
 
 const a = funkcijosPavadinimas();
 console.log(a);
+console.clear();

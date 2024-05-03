@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "namu.darbai": "node --watch ./js/duomenys/namu.darbai.js",
-    "function": "node --watch ./js/duomenys/function.js",
+    "function": "node --watch ./js/funkcijos/function.js",
     "boolean": "node --watch ./js/duomenys/boolean.js",
     "string": "node --watch ./js/duomenys/string.js",
     "number": "node --watch ./js/duomenys/number.js",
