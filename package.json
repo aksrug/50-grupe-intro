@@ -4,6 +4,10 @@
   "description": "kazkoks mini aprasas apie projekta",
   "main": "index.js",
   "scripts": {
+    "array": "node --watch ./js/duomenys/array.js",
+    "if": "node --watch ./js/palyginimas/if.js",
+    "uzduotys": "node --watch ./js/funkcijos/uzduotys.js",
+    "pavyzdziai": "node --watch ./js/funkcijos/pavyzdziai.js",
     "namu.darbai": "node --watch ./js/duomenys/namu.darbai.js",
     "function": "node --watch ./js/funkcijos/function.js",
     "boolean": "node --watch ./js/duomenys/boolean.js",
