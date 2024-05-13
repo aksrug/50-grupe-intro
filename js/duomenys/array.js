@@ -2,7 +2,7 @@
 ARRAY - masyvas, sarasas, listas, matrica, kolekcija, rinkinys
 */
 
-const empty = [];
+const empty = [];  ///savotiska informacijos busena nuo 'pirkiniu krepselis yra tuscias'
 console.log(empty);
 
 
@@ -77,5 +77,5 @@ sum3 = sum3 + marks[5];
 
 console.log(sum3);
 
-
+console.clear();
 
