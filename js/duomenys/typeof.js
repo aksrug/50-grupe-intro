@@ -57,8 +57,30 @@ if (typeof a === 'string') {
 }
 //jeigu kintamojo tipas kazka grazina, sutampa su musu norimu tipu, tai dirba vienaim, jei nesutampa - dirba kitaip
 
+console.clear();
 
 
+const x = 'asd';
+const y = 7;
+
+console.log(x && y);
+console.log('asd' && y);
+console.log(typeof (x && y));
+
+if (typeof (x && y) !== 'number') {
+    console.log('ERROR');
+} else {
+    console.log('OK')
+}
+
+/*if (typeof x !== 'number') {
+    console.log('ERROR: x');
+} else if (typeof y !== 'number') { ///////////////gelezine logika :)
+    console.log('ERROR: y');
+} else {
+    console.log('VISKAS OK');
+}
+*/
 
 
 

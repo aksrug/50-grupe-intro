@@ -125,5 +125,5 @@ console.log(g++); //jei pliusai yra uz kintamojo, o ne pries, tai didinimas vien
 //pirmiau padidina, po to spausdina
 console.log(++g);
 
-
+console.clear();
 

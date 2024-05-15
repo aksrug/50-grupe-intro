@@ -4,6 +4,10 @@
   "description": "kazkoks mini aprasas apie projekta",
   "main": "index.js",
   "scripts": {
+    "method:string": "node --watch ./js/metodai/string.js",
+    "cw:polish": "node --watch ./codewars/polish.js",
+    "method:number": "node --watch ./js/metodai/number.js",
+    "numberSize": "node --watch ./ND/numberSize.js",
     "typeof": "node --watch ./js/duomenys/typeof.js",
     "java.script.mini.uzduotys": "node --watch ./js/funkcijos/java.script.mini.uzduotys.js",
     "manto.uzduotys": "node --watch ./ND/manto.uzduotys.js",
