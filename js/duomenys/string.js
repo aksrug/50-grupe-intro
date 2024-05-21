@@ -1,6 +1,6 @@
 /*
 STRING - tekstas, tekstiniu simboliu grandinele
-iniciavimas: ' (vienguba), " (dviguba);
+iniciavimas: ' (vienguba), " (dviguba), ` (backtick)-galima naudoti vietoj viengubos kabutes
 */
 
 const name = "Jonas";
@@ -55,6 +55,7 @@ Pinigines turinys: 100;
 
 //PIRMAS VARIANTAS
 
+/* 
 let pinigai = 0, pinigai2 = 90;
 
 const turinys = "Pinigines turinys:";
@@ -73,11 +74,117 @@ console.log(papildymas + " " + pinigai2 + ";" );
 pinigai = pinigai + pinigai2;
 
 console.log(turinys + " " + pinigai + ";" );
+*/
+
+
+//ANTRAS VARIANTAS
+
+const pinigai = "Pinigines turinys";
+const pinigai2 = "Pinigine papildyta";
+const y = 10;
+const y1 = 90;
+
+let x = 0;
+console.log(pinigai + x);
+console.log(pinigai2 + y);
+x = x + y;
+console.log(pinigai + x);
+console.log(pinigai2 + y1);
+x = x + y1;
+console.log(pinigai + x);
 
 console.clear();
 
 
+/*
+<header>
+    <img>
+    <nav>
+        <a></a>
+        <a></a>
+        <a></a>
+    </nav>
+</header>
+*/
 
+console.clear();
+
+// \r - return
+// \n - new line
+// \t - tab
+
+
+//viengubos ir dvigubos kabutes yra skirtos tekstui, kuris yra vienoje eiluteje, 
+//o zemiau pavyzdys jei tekstas yra issimetes
+
+const HTML = '\
+<header>\r\n\
+\t<img>\r\n\
+\t<nav>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t</nav>\r\n\
+</header>';
+
+console.log(HTML);
+
+const backtick = `Labas rytas, Lietuva!`;
+console.log(backtick);
+
+const backtick1 = `Backtikine (\`) kabute.`;
+const backtick2 = 'Backtikine (`) kabute.';
+const backtick3 = "Backtikine (`) kabute.";
+
+const HTML2 = `<header>
+    <img>
+    <nav>
+        <a></a>
+        <a></a>
+        <a></a>
+    </nav>
+</header>`;
+console.log(HTML2);
+
+console.clear();
+
+////////////////////////////////////////////////////////////////////////////////
+const a = 7;
+const b = 5;
+const c = a + b;
+
+// 7 + 5 = 12
+const ats1 = a + ' + ' + b + ' = ' + c;
+console.log(ats1);
+
+const ats2 = a + " + " + b + " = " + c;
+console.log(ats2);
+
+const ats3 = `${a} + ${b} = ${c}`;
+console.log(ats3);
+
+
+const start = 0;
+const finish = 11;
+const step = 3;
+const answer = 4;
+
+const mini1 = 'Skaičių intervale tarp ' + start + ' ir ' + finish + ', besidalijančių be liekanos iš ' + step + ' yra ' + answer + ' vienetai.';
+
+console.log(mini1);
+
+const mini2 = `Skaičių intervale tarp ${start} ir ${finish}, besidalijančių be liekanos iš ${step} yra ${answer} vienetai.`;
+console.log(mini2);
+
+const gg = 'Good game!';
+const number = 'Number: ' + answer;
+
+console.log(mini1.length);
+console.log(mini1[0]);
+
+
+console.log('' + true);
+console.log(true.toString());
 
 
 

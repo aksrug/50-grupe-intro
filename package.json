@@ -4,6 +4,12 @@
   "description": "kazkoks mini aprasas apie projekta",
   "main": "index.js",
   "scripts": {
+    "math": "node --watch ./js/metodai/math.js",
+    "ternary": "node --watch ./js/palyginimas/ternary.js",
+    "arrow": "node --watch ./js/funkcijos/arrow.js",
+    "cw:clock": "node --watch ./codewars/clock.js",
+    "matrix": "node --watch ./ND/matrix.js",
+    "clock": "node --watch ./ND/clock.js",
     "method:string": "node --watch ./js/metodai/string.js",
     "cw:polish": "node --watch ./codewars/polish.js",
     "method:number": "node --watch ./js/metodai/number.js",

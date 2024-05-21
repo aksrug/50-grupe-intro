@@ -8,8 +8,16 @@ Input=> Function() => Output
 */
 ////visos funkcijos grazina savo darbo rezultata!!!
 
-//bazinis funkcijos skeletas:
 
+
+function doSomething(params) {
+    //1.Input (parametru) validavimas
+    //2.Vykdome logika
+    //3.Gauto rezultato validavimas
+    //4.Graziname rezultata
+}
+
+//bazinis funkcijos skeletas:
 function funkcijosPavadinimas() {
 
 }
@@ -97,5 +105,20 @@ function price(value) {
 console.log(price(100)); //121
 console.log(price(150)); //121
 
+// Dictionary: ZODIS, ZODIS, ZODIS.
+function words(w1, w2, w3) {
+    let sentence = 'Dictionary: ';
+
+    sentence += w1;
+    sentence += ', ';
+    sentence += w2;
+    sentence += ', ';
+    sentence += w3;
+    sentence += '.';
+
+    return sentence;
+}
+
+console.log(words('labas', 'rytas', 'Lietuva'));
 
 
