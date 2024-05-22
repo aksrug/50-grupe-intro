@@ -4,6 +4,8 @@
   "description": "kazkoks mini aprasas apie projekta",
   "main": "index.js",
   "scripts": {
+    "object": "node --watch ./js/duomenys/object.js",
+    "random": "node --watch ./js/metodai/random.js",
     "math": "node --watch ./js/metodai/math.js",
     "ternary": "node --watch ./js/palyginimas/ternary.js",
     "arrow": "node --watch ./js/funkcijos/arrow.js",

@@ -119,3 +119,24 @@ console.log(Math.random());
 console.log(Math.random()); 
 console.log(Math.random()); 
 
+console.log('\n Sign --------------');
+console.log(Math.sign(5)); 
+console.log(Math.sign(-5)); 
+console.log(Math.sign(-3.1415)); 
+console.log(Math.sign(2.7178)); 
+console.log(Math.sign(0)); 
+console.log(Math.sign(-0)); 
+console.log(Math.sign(-Infinity)); 
+console.log(Math.sign(Infinity)); 
+console.log(Math.sign(NaN)); 
+
+console.log('\n Sqrt --------------');
+console.log(Math.sqrt(4)); 
+console.log(Math.sqrt(9)); 
+console.log(Math.sqrt(81)); 
+console.log(Math.sqrt(-4), '2i'); 
+console.log(Math.sqrt(-9), '3i'); 
+console.log(Math.sqrt(-81), '9i'); 
+// i*i= -1 menamieji skaiciai
+
+
