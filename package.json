@@ -4,6 +4,12 @@
   "description": "kazkoks mini aprasas apie projekta",
   "main": "index.js",
   "scripts": {
+    "method:array": "node --watch ./js/metodai/array.js",
+    "des": "node --watch ./js/metodai/des.js",
+    "spread": "node --watch ./js/metodai/spread.js",
+    "eval": "node --watch ./ND/eval.js",
+    "mini": "node --watch ./ND/mini.js",
+    "return": "node --watch ./codewars/return.js",
     "object": "node --watch ./js/duomenys/object.js",
     "random": "node --watch ./js/metodai/random.js",
     "math": "node --watch ./js/metodai/math.js",

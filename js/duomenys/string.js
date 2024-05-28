@@ -186,5 +186,7 @@ console.log(mini1[0]);
 console.log('' + true);
 console.log(true.toString());
 
+console.clear();
+
 
 
