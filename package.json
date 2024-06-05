@@ -4,6 +4,9 @@
   "description": "kazkoks mini aprasas apie projekta",
   "main": "index.js",
   "scripts": {
+    "new-methods": "node --watch ./qa/new-methods.js",
+    "reduce": "node --watch ./js/metodai/reduce.js",
+    "d3": "node --watch ./qa/d3.js",
     "method:array2": "node --watch ./js/metodai/array2.js",
     "cw:well": "node --watch ./codewars/well.js",
     "for-other": "node --watch ./js/ciklai/for-other.js",
