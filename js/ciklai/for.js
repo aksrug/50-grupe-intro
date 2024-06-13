@@ -15,7 +15,7 @@ FOR - pagrindinis ciklas (en. loop)
 
 //STRUKTURA. Kai rasome cikla, jis praso esmines info - kiek kartu man kazka daryti?
 // inicijuojame kintamaji i (galime ir kita zodi, bet priimta i - iteracija)
-//pirmas i - startas, vidurinis i - lyg stabdziai, paskutinis i - iki kiek mes einame, kaip zingsniuojame, kiek didiname
+// pirmas i - startas, vidurinis i - lyg stabdziai, paskutinis i - iki kiek mes einame, kaip zingsniuojame, kiek didiname
 // pirmos i reiksme galima pradeti 20 ir eiti zemyn link nulio, paskutinis i bus i--
 
 

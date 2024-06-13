@@ -475,7 +475,7 @@ function moreThan4(arr) {
 console.log(moreThan4(B));
 
 
-// Suskaičiuoti kiek masyve yra žodžių;
+// Suskaičiuoti, kiek masyve yra žodžių;
 
 function countWords(arr) {
     let ans = 0;

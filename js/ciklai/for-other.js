@@ -45,6 +45,8 @@ for (; i < words2.length;) {
     i++;
 }
 
+//BREAK
+
 let whileI2 = 0;
 while (true) {
     console.log(whileI2++);
