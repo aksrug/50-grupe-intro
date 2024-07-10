@@ -4,6 +4,7 @@
   "description": "kazkoks mini aprasas apie projekta",
   "main": "index.js",
   "scripts": {
+    "default": "node --watch ./js/funkcijos/default.js",
     "new-methods": "node --watch ./qa/new-methods.js",
     "reduce": "node --watch ./js/metodai/reduce.js",
     "d3": "node --watch ./qa/d3.js",
